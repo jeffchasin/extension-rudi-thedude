@@ -1,11 +1,11 @@
 {
-  "displayName": "Konami Code",
-  "name": "konami-code",
+  "displayName": "The Dude Konami Extension",
+  "name": "rudi-thedude",
   "platform": "web",
   "version": "1.0.0",
-  "description": "Trigger a rule when a user enters the Konami Code (up, up, down, down, left, right, left, right, b, a).",
+  "description": "The Dude rides when a user enters the Konami Code (up, up, down, down, left, right, left, right, b, a).",
   "author": {
-    "name": "Aaron Hardy"
+    "name": "Aaron, with tweaks by Jeff"
   },
   "viewBasePath": "src/view/",
   "events": [
@@ -20,5 +20,17 @@
       "libPath": "src/lib/events/konamiCodeEntered.js"
     }
   ],
-  "iconPath": "icon.svg"
+  "iconPath": "icon.svg",
+  "actions": [
+    {
+      "displayName": "The Dude Rides",
+      "name": "the-dude-rides",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/theDudeRides.js"
+    }
+  ]
 }
