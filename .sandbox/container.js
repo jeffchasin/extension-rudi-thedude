@@ -1,10 +1,14 @@
 module.exports = {
   "dataElements": {},
   "rules": [{
-    "id": "RL1542690590615",
-    "name": "Konami",
+    "id": "RL1552589799070",
+    "name": "Dude Rides Again",
     "events": [{
-      "modulePath": "konami-code/src/lib/events/konamiCodeEntered.js",
+      "modulePath": "rudi-thedude/src/lib/events/konamiCodeEntered.js",
+      "settings": {}
+    }],
+    "actions": [{
+      "modulePath": "rudi-thedude/src/lib/actions/theDudeRides.js",
       "settings": {}
     }]
   }],
@@ -13,9 +17,9 @@ module.exports = {
     "settings": {}
   },
   "buildInfo": {
-    "turbineVersion": "25.1.3",
-    "turbineBuildDate": "2018-11-20T05:09:52.847Z",
-    "buildDate": "2018-11-20T05:09:52.847Z",
+    "turbineVersion": "25.4.0",
+    "turbineBuildDate": "2019-03-14T18:56:40.976Z",
+    "buildDate": "2019-03-14T18:56:40.976Z",
     "environment": "development"
   }
 }

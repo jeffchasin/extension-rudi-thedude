@@ -1,12 +1,13 @@
 {
-  "name": "rudi-thedude-extension",
+  "name": "rudi-thedude",
   "version": "1.0.0",
   "description": "The Dude abides",
   "main": "index.js",
   "scripts": {
+    "sandbox": "npx @adobe/reactor-sandbox",
     "scaffold": "npx @adobe/reactor-scaffold",
     "package": "npx @adobe/reactor-packager",
-    "upload": "npx @adobe/reactor-uploader --environment=production --org-id=6B38337B54F4E74C0A4C98A1@AdobeOrg --tech-account-id=D61947B55B1021360A495E2C@techacct.adobe.com --api-key=37823ec0758d4ea28bb731770e38540c"
+    "upload": "npx @adobe/reactor-uploader --environment=production --org-id=9DAC3E2F59A7EE580A495C46@AdobeOrg --tech-account-id=BFA504BF5C8A9D7C0A495EA5@techacct.adobe.com --api-key=25cc172476a54090ba734d50f85f84b6"
   },
   "author": "",
   "license": "ISC"

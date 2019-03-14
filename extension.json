@@ -1,11 +1,12 @@
 {
   "displayName": "The Dude Konami Extension",
   "name": "rudi-thedude",
-  "platform": "web",
   "version": "1.0.0",
+  "platform": "web",
   "description": "The Dude rides when a user enters the Konami Code (up, up, down, down, left, right, left, right, b, a).",
+  "iconPath": "icon.svg",
   "author": {
-    "name": "Aaron, with tweaks by Jeff"
+    "name": "Konami by Aaron, Dude by Jeff"
   },
   "viewBasePath": "src/view/",
   "events": [
@@ -20,7 +21,6 @@
       "libPath": "src/lib/events/konamiCodeEntered.js"
     }
   ],
-  "iconPath": "icon.svg",
   "actions": [
     {
       "displayName": "The Dude Rides",
